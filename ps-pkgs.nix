@@ -80,7 +80,7 @@
             typelevel-prelude
           ];
       };
-    
+
     argparse-basic =
       { version = "1.0.0";
         repo = "https://github.com/natefaubion/purescript-argparse-basic.git";
@@ -106,72 +106,75 @@
 
     cardano-transaction-lib =
       { repo = "https://github.com/Plutonomicon/cardano-transaction-lib.git";
-        rev = "6d47a100781379b54debc801b4f13a21ea182c23";
+        rev = "6fca5ee2ff27f81762689c7da0d307e1afe7bbd3";
 
         dependencies =
-          [ aeson
-            aeson-helpers
-            aff
-            aff-promise
-            affjax
-            arraybuffer-types
-            arrays
-            bifunctors
-            bigints
-            checked-exceptions
-            console
-            const
-            control
-            debug
-            effect
-            either
-            encoding
-            enums
-            exceptions
-            foldable-traversable
-            foreign-object
-            http-methods
-            identity
-            integers
-            js-date
-            lattice
-            lists
-            maybe
-            medea
-            media-types
-            monad-logger
-            mote
-            newtype
-            node-buffer
-            node-fs
-            node-fs-aff
-            node-path
-            nonempty
-            ordered-collections
-            partial
-            prelude
-            profunctor
-            profunctor-lenses
-            quickcheck
-            quickcheck-laws
-            rationals
-            record
-            refs
-            spec
-            strings
-            tailrec
-            text-encoding
-            these
-            transformers
-            tuples
-            typelevel
-            typelevel-prelude
-            uint
-            undefined
-            unfoldable
-            untagged-union
-            variant
-          ];
+         [ aeson
+         , aeson-helpers
+         , aff
+         , aff-promise
+         , affjax
+         , arraybuffer-types
+         , arrays
+         , bifunctors
+         , bigints
+         , checked-exceptions
+         , console
+         , const
+         , control
+         , debug
+         , effect
+         , either
+         , encoding
+         , enums
+         , exceptions
+         , foldable-traversable
+         , foreign-object
+         , http-methods
+         , identity
+         , integers
+         , js-date
+         , lattice
+         , lists
+         , maybe
+         , medea
+         , media-types
+         , monad-logger
+         , mote
+         , newtype
+         , node-buffer
+         , node-fs
+         , node-fs-aff
+         , node-path
+         , nonempty
+         , ordered-collections
+         , orders
+         , partial
+         , prelude
+         , profunctor
+         , profunctor-lenses
+         , quickcheck
+         , quickcheck-laws
+         , quickcheck-combinators
+         , rationals
+         , record
+         , refs
+         , spec
+         , spec-quickcheck
+         , strings
+         , tailrec
+         , text-encoding
+         , these
+         , transformers
+         , tuples
+         , typelevel
+         , typelevel-prelude
+         , uint
+         , undefined
+         , unfoldable
+         , untagged-union
+         , variant
+         ]
       };
 
     lattice =
@@ -180,7 +183,7 @@
         version = "0.3.0";
         rev = "aebe3686eba30f199d17964bfa892f0176c1742d";
       };
-    
+
     medea =
       { repo = "https://github.com/juspay/medea-ps.git";
         rev = "8b215851959aa8bbf33e6708df6bd683c89d1a5a";
@@ -273,14 +276,14 @@
           ];
       };
 
-    
+
     properties =
       { dependencies = [ prelude console ];
         repo = "https://github.com/Risto-Stevcev/purescript-properties.git";
         version = "0.2.0";
         rev = "ddcad0f6043cc665037538467a2e2e4173ef276a";
       };
-    
+
     purescript-language-cst-parser =
       { version = "0.9.0";
         repo = "https://github.com/natefaubion/purescript-language-cst-parser.git";
