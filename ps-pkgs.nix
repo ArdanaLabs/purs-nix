@@ -174,7 +174,7 @@
            unfoldable
            untagged-union
            variant
-         ]
+         ];
       };
 
     lattice =
